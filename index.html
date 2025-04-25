@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Volgorde Spel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Volgorde Spel</h1>
+  <div id="score">Highscore: 0</div>
+  <div id="round-info">Ronde: 0</div>
+  <div id="timer">Tijd: 0</div>
+  <div>
+    <button id="start-button">Start</button>
+    <button id="reset-button">Reset</button>
+  </div>
+  <div id="game-container"></div>
+
+  <!-- Geluiden -->
+  <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
+  <audio id="wrong-sound" src="wrong.mp3" preload="auto"></audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
